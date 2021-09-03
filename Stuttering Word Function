@@ -1,0 +1,10 @@
+# This will work for a stutter of any length. Just change stut_len
+def stutter(word):
+
+	stut_len = 2;
+	elipsis = "... "
+	stut_word = ""
+	
+	for x in range(stut_len):
+		stut_word += word[x]
+	return stut_word + elipsis + stut_word + elipsis + word + "?"
